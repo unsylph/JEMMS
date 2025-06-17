@@ -36,3 +36,21 @@ body{
     float: left;
     /*May want to change below later if logo is changed*/
 }
+
+.video{
+    /*Placeholder box for video*/
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    height: 400px;
+    width: 650px;
+    background-color: black;
+    margin: 50px;
+}
+
+/* video-section (affects mostly text) */
+.video-section{
+    color: red;
+    font-family: 'Open Dyslexic';
+}
