@@ -1,5 +1,8 @@
 body{
-    background-image: url();
+    background-image: url("./cutebabyduckling.webp");
+    background-size: cover;
+    text-align: center;
+    font-style: oblique;
 
 
 }
