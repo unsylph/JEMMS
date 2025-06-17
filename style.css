@@ -1,1 +1,38 @@
-
+body{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+.topBar{
+    width: 100%;
+    margin: 0px;
+    position: fixed;
+    height: 100px;
+    background-color:red;
+    padding: 0.5%;
+    border-style: groove;
+    border-color: red;
+    border-width: 0px;
+    border-bottom-width: 15px;
+}
+.element{
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    align-content: center;
+    float:left;
+    height: 100%;
+    /*May want to change later*/
+    width: 15%;
+    border-color: indianred;
+    border-style: dashed;
+    border-width: 0px;
+    border-left-width: 3px;
+}
+.logo{
+    /*Change px to whatever size of topBar is*/
+    height: 100px;
+    width: 100px;
+    float: left;
+    /*May want to change below later if logo is changed*/
+}
