@@ -6,7 +6,7 @@ body{
 .topBar{
     width: 100%;
     margin: 0px;
-    position: fixed;
+    /*position: fixed;*/
     height: 100px;
     background-color:red;
     padding: 0.5%;
@@ -37,18 +37,6 @@ body{
     /*May want to change below later if logo is changed*/
 }
 
-.video{
-    /*Placeholder box for video*/
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    bottom: 0;
-    height: 400px;
-    width: 650px;
-    background-color: black;
-    margin: 50px;
-}
-
 /* video-section (affects mostly text) */
 .video-section{
     font-family: 'Open Dyslexic';
@@ -56,4 +44,16 @@ body{
     padding: 10px;
     bottom: 0;
     left: 0;
+}
+
+.video{
+    /*Placeholder box for video*/
+    display: flex;
+    justify-content: center;
+    /*position: absolute;*/
+    bottom: 0;
+    height: 400px;
+    width: 650px;
+    background-color: black;
+    margin: 50px;
 }
