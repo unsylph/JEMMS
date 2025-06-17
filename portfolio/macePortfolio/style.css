@@ -1,0 +1,26 @@
+html{
+    font-family: "Comic Sans MS", cursive;
+}
+body{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    color: magenta;
+    background-color: lime;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+h3{
+        text-align: center;
+}
+.section{
+    width: 85vw;
+    padding: 3%;
+    border-style: groove;
+    border-color: magenta;
+    border-width: 5px;
+    border-top-left-radius: 23%;
+    border-bottom-right-radius: 23%;
+}

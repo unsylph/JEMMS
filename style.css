@@ -10,6 +10,7 @@ body{
     height: 100px;
     background-color:red;
     padding: 0.5%;
+    padding-bottom: 0px;
     border-style: groove;
     border-color: red;
     border-width: 0px;
