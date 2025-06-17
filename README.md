@@ -2,7 +2,7 @@
 A website for children and cardiac arrest
 
 ## Project Team:
-Stormie Murphy
-Jayshon Valentine
-Elizabeth Williams
-Mujahid Udofia
+<h4>Stormie Murphy</h4>
+<h4>Jayshon Valentine</h4>
+<h4>Elizabeth Williams</h4>
+<h4>Mujahid Udofia</h4>
