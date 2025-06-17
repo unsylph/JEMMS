@@ -52,4 +52,8 @@ body{
 /* video-section (affects mostly text) */
 .video-section{
     font-family: 'Open Dyslexic';
+    color: blue;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
 }
