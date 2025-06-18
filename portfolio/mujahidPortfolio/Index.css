@@ -2,6 +2,7 @@
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 150%;
+    margin-top: 80px;
 }
 
 .Desc{
@@ -22,6 +23,18 @@
     margin-left: 80px;
     margin-right: 80px;
     
+}
+
+.ProjSub{
+    border-style:dashed;
+    border-radius: 10px;
+    border-width: 3px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.Projects{
+    margin-bottom: 80px;
 }
 
 .nav-bar{
@@ -68,7 +81,7 @@ a{
 body{
 
     margin: 0px !important;
-    height:95vh;
+    height:100%;
     width: 100%;
     color: white;
     align-content: center;
@@ -76,5 +89,6 @@ body{
     background-size: 400%;
     background-image: linear-gradient(to right,#8f00ff,#b553ff,#8f00ff);
     -webkit-animation: gradientName 10s cubic-bezier(0, 0, 1, 0.99) infinite;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
