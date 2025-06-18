@@ -2,6 +2,7 @@ body{
     padding: 0px;
     margin: 0px;
     width: 100%;
+    font-family: 'Open Dyslexic';
 }
 .topBar{
     width: 100%;
@@ -29,6 +30,12 @@ body{
     border-style: dashed;
     border-width: 0px;
     border-left-width: 3px;
+    /*Shifting color without JS*/
+    background-color:red;
+    transition: background-color 0.5s;
+}
+.element:hover{
+    background-color: rgb(200, 0, 0);
 }
 .logo{
     /*Change px to whatever size of topBar is*/
