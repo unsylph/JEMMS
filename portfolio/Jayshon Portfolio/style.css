@@ -1,0 +1,27 @@
+body{background-image: url("https://giffiles.alphacoders.com/151/151204.gif");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+header{color:white}
+
+
+
+.navbar{background-color:gold}
+.nav-links{list-style: none;
+gap:1.5rem;
+display:flex;
+padding: 2rem 15rem;
+box-shadow: 0 4px 6px rgba(red, green, blue, alpha)}
+a{color :whitesmoke}
+
+.Skils{
+    color: white;
+}
+
+.Projects{
+    color: white;
+}
+
+.About{ color: whitesmoke;}
+
