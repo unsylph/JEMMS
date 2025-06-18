@@ -3,6 +3,7 @@ body{
     margin: 0px;
     width: 100%;
     font-family: 'Open Dyslexic';
+    color: lightblue;
 }
 .topBar{
     width: 100%;
@@ -64,4 +65,21 @@ body{
     width: 650px;
     background-color: black;
     margin: 50px;
+}
+/*To be used alongside card*/
+.cardContainer{
+    height: fit-content;
+}
+/*To be used on div within cardContainer along with another class or attribute that determines size*/
+.card{
+    float:right;
+    background-color: rgb(255, 60, 45);
+    border-width: 7px;
+    border-style: groove;
+    border-color: rgb(240, 50, 35);
+}
+/*For home screen card usage*/
+.home{
+    width: 19%;
+    margin-left: 1%
 }

@@ -15,6 +15,9 @@ h1{
 h3{
         text-align: center;
 }
+a{
+    color:darkmagenta;
+}
 .section{
     width: 85vw;
     padding: 3%;
