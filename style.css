@@ -2,6 +2,8 @@ body{
     padding: 0px;
     margin: 0px;
     width: 100%;
+    font-family: 'Open Dyslexic';
+    color: lightblue;
 }
 .topBar{
     width: 100%;
@@ -29,6 +31,12 @@ body{
     border-style: dashed;
     border-width: 0px;
     border-left-width: 3px;
+    /*Shifting color without JS*/
+    background-color:red;
+    transition: background-color 0.5s;
+}
+.element:hover{
+    background-color: rgb(200, 0, 0);
 }
 .logo{
     /*Change px to whatever size of topBar is*/
@@ -40,9 +48,14 @@ body{
 
 /* video-section (affects mostly text) */
 .video-section{
-    font-family: 'Open Dyslexic';
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: blue;
-    padding: 10px;
+    background-color: rgb(255, 95, 95);
+    border-radius: 5px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 20px;
+    padding-bottom: 20px;
     bottom: 0;
     left: 0;
 }
@@ -52,9 +65,29 @@ body{
     display: flex;
     justify-content: center;
     /*position: absolute;*/
-    bottom: 0;
-    height: 400px;
-    width: 650px;
+    width: 80%;
+    aspect-ratio: 19/9;
     background-color: black;
     margin: 50px;
+}
+/*To be used alongside card*/
+.cardContainer{
+    height: fit-content;
+}
+/*To be used on div within cardContainer along with another class or attribute that determines size*/
+.card{
+    float:right;
+    background-color: rgb(255, 60, 45);
+    border-width: 7px;
+    border-style: groove;
+    border-color: rgb(240, 50, 35);
+}
+/*For home screen card usage*/
+.home{
+    width: 19%;
+    margin-left: 1%
+}
+.portfolio{
+    width: 19%;
+    margin-left: 1%
 }
