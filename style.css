@@ -3,6 +3,8 @@ body{
     margin: 0px;
     width: 100%;
     font-family: 'Open Dyslexic';
+    color: lightblue;
+    overflow-x: hidden;
 }
 .topBar{
     width: 100%;
@@ -47,9 +49,14 @@ body{
 
 /* video-section (affects mostly text) */
 .video-section{
-    font-family: 'Open Dyslexic';
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: blue;
-    padding: 10px;
+    background-color: rgb(255, 95, 95);
+    border-radius: 5px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 20px;
+    padding-bottom: 20px;
     bottom: 0;
     left: 0;
 }
@@ -59,9 +66,29 @@ body{
     display: flex;
     justify-content: center;
     /*position: absolute;*/
-    bottom: 0;
-    height: 400px;
-    width: 650px;
+    width: 80%;
+    aspect-ratio: 19/9;
     background-color: black;
     margin: 50px;
+}
+/*To be used alongside card*/
+.cardContainer{
+    height: fit-content;
+}
+/*To be used on div within cardContainer along with another class or attribute that determines size*/
+.card{
+    float:left;
+    background-color: rgb(255, 60, 45);
+    border-width: 7px;
+    border-style: groove;
+    border-color: rgb(240, 50, 35);
+}
+/*For home screen card usage*/
+.home{
+    width: 19%;
+    margin-left: 0.5%
+}
+.portfolio{
+    width: 19%;
+    margin-left: 0.25%
 }
