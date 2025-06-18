@@ -50,7 +50,12 @@ body{
 .video-section{
     font-family: 'Open Dyslexic';
     color: blue;
-    padding: 10px;
+    background-color: lightgreen;
+    border-radius: 5px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 20px;
+    padding-bottom: 20px;
     bottom: 0;
     left: 0;
 }
@@ -60,9 +65,8 @@ body{
     display: flex;
     justify-content: center;
     /*position: absolute;*/
-    bottom: 0;
-    height: 400px;
-    width: 650px;
+    width: 80%;
+    aspect-ratio: 19/9;
     background-color: black;
     margin: 50px;
 }
