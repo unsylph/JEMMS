@@ -1,0 +1,73 @@
+.Title{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.Desc{
+
+    border-style:dashed;
+    border-radius: 10px;
+    border-width: 3px;
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+
+.List{
+  
+    border-style:dashed;
+    border-radius: 10px;
+    border-width: 3px;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+}
+
+.nav-bar{
+
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background-color: #6100ab;
+    align-self: flex-start;
+    width: 100%;
+    box-shadow: 0 7px 7px rgb(88, 0, 151, 0.7);
+}
+
+.nav-links{
+    
+    list-style: none;
+    gap: 1.5rem;
+    display: flex;
+    padding: 3px;
+    text-shadow: #640063;
+    text-align: center;
+    align-self: flex-start;
+
+    
+}
+
+header{
+    align-self: flex-start;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    align-content: center;
+    text-align: match-parent;
+}
+
+body{
+
+    margin: 0px !important;
+    height:95vh;
+    width: 100%;
+    background: linear-gradient(90deg,#8f00ff,#b553ff);
+    background-size: 100%;
+    color: white;
+    align-content: center;
+    text-align: center;
+    
+}
