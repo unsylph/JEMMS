@@ -50,8 +50,12 @@ body{
 .video-section{
     font-family: 'Open Dyslexic';
     color: blue;
+    background-color: lightgreen;
+    border-radius: 5px;
     padding-left: 1%;
     padding-right: 1%;
+    padding-top: 20px;
+    padding-bottom: 20px;
     bottom: 0;
     left: 0;
 }
