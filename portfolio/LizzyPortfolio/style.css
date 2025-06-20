@@ -9,6 +9,12 @@ body{
 section{
     background-color:rgba(222, 184, 135, 0.40);
     color: teal;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-style:dotted;
+    border-width: 3px;
 
 }
 
