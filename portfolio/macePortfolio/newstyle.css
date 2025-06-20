@@ -1,0 +1,30 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    font-family: "Lucida Console", Monospace
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+        width: 100vw;
+        background-color: grey;
+        border-width:0px;
+        border-bottom-width: 5px;
+        border-style: solid;
+        border-color: darkgrey;
+        margin: 0px;
+        padding:0px;
+        text-align: center;
+        color: white;
+        text-shadow: black;
+        font-weight: bold;
+}
+img{
+        float: left;
+}
+#title{
+    font-size: large;
+}
