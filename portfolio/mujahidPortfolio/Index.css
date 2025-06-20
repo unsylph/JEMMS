@@ -12,7 +12,8 @@
     border-width: 3px;
     margin-left: 80px;
     margin-right: 80px;
-
+    background-color: #ffffff30;
+    
 }
 
 .List{
@@ -22,6 +23,7 @@
     border-width: 3px;
     margin-left: 80px;
     margin-right: 80px;
+    background-color: #ffffff30;
     
 }
 
@@ -31,6 +33,7 @@
     border-width: 3px;
     margin-left: 80px;
     margin-right: 80px;
+    background-color: #ffffff30;
 }
 
 .Projects{
@@ -51,12 +54,12 @@
 .nav-links{
     
     list-style: none;
-    gap: 1.5rem;
+    gap: 2.5rem;
     display: flex;
     padding: 3px;
     text-shadow: #640063;
     text-align: center;
-    align-self: flex-start;
+    align-self: center;
 
     
 }
@@ -87,8 +90,10 @@ body{
     align-content: center;
     text-align: center;
     background-size: 400%;
-    background-image: linear-gradient(to right,#8f00ff,#b553ff,#8f00ff);
+    background-image: linear-gradient(to right,#6200ac,#8f00ff, #b553ff);
     -webkit-animation: gradientName 10s cubic-bezier(0, 0, 1, 0.99) infinite;
+    animation: gradientName 10s cubic-bezier(0, 0, 1, 0.99) infinite;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
+
