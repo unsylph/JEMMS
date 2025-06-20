@@ -23,9 +23,6 @@ ul.navigationlinks{
     color: teal;
     gap: 3.5rem;
     padding: 1.1rem 15rem;
-    height: 20px;
-    margin-right: -10px;
-    margin-left: -10px;
 }
 
 a{
