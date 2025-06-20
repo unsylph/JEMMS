@@ -1,76 +1,120 @@
 body {
-  background-image: url(https://i.makeagif.com/media/7-13-2017/NC5akQ.gif); 
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  min-height: 100vh;
   margin: 0;
-  font-family: "Times New Roman", Georgia, 'Brush Script MT', cursive;
-  font-size: 14px; 
-  color: #f0f0f0;
-  text-align: center;
-  padding: 1rem;
-  line-height: 1.4;
+  padding: 0;
+  font-family: 'Times New Roman', serif;
+  background-image: url(https://i.makeagif.com/media/7-13-2017/NC5akQ.gif); /* <-- replace with your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #eee;
 }
 
-
-header {
-  margin-bottom: 1.5rem;
-}
-
+/* NAVIGATION BAR */
 .navbar {
-  display: flex;
-  justify-content: center;
-  background-color: rgba(0, 0, 0, 0.35);
-  padding: 0.75rem 0;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
-  transition: background-color 0.3s ease;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+  text-align: center;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Highlight entire navbar when mouse is over it — even during drag */
 .navbar:hover {
-  background-color: rgba(255, 204, 112, 0.15); /* warm, soft gold glow */
+  background-color: rgba(245, 200, 92, 0.85);
+  box-shadow: 0 0 25px 5px rgba(245, 200, 92, 0.9);
 }
 
 .nav-links {
   list-style: none;
-  display: flex;
-  gap: 1.5rem;
   padding: 0;
   margin: 0;
 }
 
+.nav-links li {
+  display: inline;
+  margin: 0 15px;
+}
+
 .nav-links a {
-  color: #e0e0e0;
-  text-decoration: none;
-  font-weight: 600;
+  color: #f5c85c; /* warm golden text */
+  text-decoration: none; /* no underline */
+  font-weight: bold;
   transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-  color: #ffcc70;
+  color: #1a1a00; /* dark text on hover for contrast */
+  text-decoration: none; /* no underline on hover */
 }
 
-/* Headings */
-h1, h2, h3 {
+/* GRID LAYOUT FOR MAIN SECTIONS */
+#main-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto auto;
+  gap: 2rem;
+  grid-template-areas:
+    "about skills"
+    "projects projects"
+    "experience contact";
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+
+/* Transparent dark backgrounds with golden hover highlight */
+.section-card {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  color: #eee;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  cursor: default;
+}
+
+.section-card:hover {
+  background-color: rgba(245, 200, 92, 0.85); /* warm golden transparent */
+  box-shadow: 0 0 25px 5px rgba(245, 200, 92, 0.9);
+  color: #1a1a00;
+}
+
+#about      { grid-area: about; }
+#skills     { grid-area: skills; }
+#projects   { grid-area: projects; }
+#experience { grid-area: experience; }
+#contact    { grid-area: contact; }
+
+/* Make the center section stand out with slightly different background */
+.middle {
+  background-color: rgba(0, 0, 0, 0.7);
   font-weight: bold;
+}
+
+.middle:hover {
+  background-color: rgba(245, 200, 92, 0.9);
+  box-shadow: 0 0 30px 7px rgba(245, 200, 92, 1);
+  color: #1a1a00;
+}
+
+/* BULLET LIST STYLE */
+ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+li {
   margin-bottom: 0.5rem;
-  color: #ffffff;
 }
 
-/* Section Boxes */
-#about, #skills, #projects, #home {
-  margin: 1rem auto;
-  max-width: 700px;
-  padding: 1rem 1.25rem;
-  background-color: rgba(0, 0, 0, 0.25); /* more transparent */
-  border-radius: 10px;
-  backdrop-filter: blur(2px); /* subtle blur for modern look */
+/* RESPONSIVE: STACK SECTIONS ON SMALL SCREENS */
+@media (max-width: 768px) {
+  #main-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "about"
+      "skills"
+      "projects"
+      "experience"
+      "contact";
+  }
 }
-
-/* List Styling */
-#skills li {
-  list-style: none;
-  margin-bottom: 0.3rem;
-}
-
