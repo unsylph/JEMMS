@@ -1,0 +1,76 @@
+body {
+  background-image: url(https://i.makeagif.com/media/7-13-2017/NC5akQ.gif); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Times New Roman", Georgia, 'Brush Script MT', cursive;
+  font-size: 14px; 
+  color: #f0f0f0;
+  text-align: center;
+  padding: 1rem;
+  line-height: 1.4;
+}
+
+
+header {
+  margin-bottom: 1.5rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.35);
+  padding: 0.75rem 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s ease;
+}
+
+/* Highlight entire navbar when mouse is over it — even during drag */
+.navbar:hover {
+  background-color: rgba(255, 204, 112, 0.15); /* warm, soft gold glow */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ffcc70;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+/* Section Boxes */
+#about, #skills, #projects, #home {
+  margin: 1rem auto;
+  max-width: 700px;
+  padding: 1rem 1.25rem;
+  background-color: rgba(0, 0, 0, 0.25); /* more transparent */
+  border-radius: 10px;
+  backdrop-filter: blur(2px); /* subtle blur for modern look */
+}
+
+/* List Styling */
+#skills li {
+  list-style: none;
+  margin-bottom: 0.3rem;
+}
+
