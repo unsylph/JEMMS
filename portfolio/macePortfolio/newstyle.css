@@ -14,6 +14,8 @@ body{
     height: 100%;
     width: 100%;
     text-align: left;
+    display: flex;
+    flex-direction: column;
 }
 header{
         position:relative;
@@ -29,6 +31,7 @@ header{
         color: white;
         font-weight: bold;
         z-index: 2;
+        flex: 0 1 auto;
 }
 img{
         float: left;
@@ -86,6 +89,8 @@ label{
         width: 100%;
         height: calc(100% - header:attr(height));
     grid-template-columns: 33% 67%;
+    flex: 1 1 auto;
+    min-height: 0px;
 }
 .display{
     background-color: grey;

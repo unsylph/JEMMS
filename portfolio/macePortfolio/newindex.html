@@ -4,14 +4,14 @@
     <link rel="stylesheet" href="newstyle.css">
     <title>Mace Thompson's Portfolio</title>
 </head>
-<body>
+<body onload="document.getElementById('navTree').reset();">
     <header><p id="title">Mace Thompson</p></header>
     <div class="body">
-    <form class="navTree">
+    <form class="navTree" id="navTree">
             <!--To ensure radios start unselected and have a default page-->
             <input type="radio" name="file" id="hider" style="width:0px; height:0px; overflow:hidden;" checked>
             <label for="aboutMe"><div><input type="checkbox" name="aboutMe" class="folderButton" id="aboutMe"><img src="folder"></input><p>aboutMe</p></div></label>
-        <div class="folder" id="aboutMe">
+        <div class="folder" id="aboutMeContent">
             <label for="introduction"><div><input type="radio" name="file" class="file" id="introduction">
                     <img src="file"><p>introductionAndSkills.txt</p>
             </div></label>
@@ -20,7 +20,7 @@
             </div></label>
         </div>
         <label for="abilities"><div><input type="checkbox" name="ablities" class="folderButton" id="abilties"><img src="folder"><p>abilities</p></input></div></label>
-        <div class="folder" id="abilities">
+        <div class="folder" id="abilitiesContent">
                 <label for="languages"><div><input type="radio" name="file" class="file" id="languages">
                     <img src="file"><p>programmingLanguages.txt</p>
                         </div></label>
@@ -31,7 +31,11 @@
 
     </form>
     <div class="display">
-
+        <div id="hiderContent">Welcome to my portfolio! Use the file tree on the left to navigate!</div>
+        <div id="introductionConent">Placeholder1</div>
+        <div id="experienceContent">Placeholder2</div>
+        <div id="languagesContent">Placeholder3</div>
+        <div id="skillsContent">Placeholder4</div>
     </div>
     </div>
 </body>
