@@ -1,51 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="style.css">
-    <title>Mace Thompson's Portfolio</title>
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
 </head>
-<body onload="document.getElementById('navTree').reset();">
-    <header><p id="title">Mace Thompson</p></header>
-    <div class="body">
-    <form class="navTree" id="navTree">
-            <!--To ensure radios start unselected and have a default page-->
-            <input type="radio" name="file" id="hider" style="width:0px; height:0px; overflow:hidden;" checked>
-            <label for="aboutMe"><div><input type="checkbox" name="aboutMe" class="folderButton" id="aboutMe"><h1 class="fileIcon">&#128448;</h1></input><p>aboutMe</p></div></label>
-        <div class="folder" id="aboutMeContent">
-            <label for="introduction"><div><input type="radio" name="file" class="file" id="introduction">
-                    <h1 class="fileIcon">&#128462;</h1><p>introductionAndSkills.txt</p>
-            </div></label>
-            <label for="experience"><div><input type="radio" name="file" class="file" id="experience">
-                    <h1 class="fileIcon">&#128462;</h1><p>experienceAndPersonal.txt</p>
-            </div></label>
-        </div>
-        <label for="abilities"><div><input type="checkbox" name="ablities" class="folderButton" id="abilities"><h1 class="fileIcon">&#128448;</h1><p>abilities</p></input></div></label>
-        <div class="folder" id="abilitiesContent">
-                <label for="languages"><div><input type="radio" name="file" class="file" id="languages">
-                    <h1 class="fileIcon">&#128462;</h1><p>programmingLanguages.txt</p>
-                        </div></label>
-                <label for="skills"><div><input type="radio" name="file" class="file" id="skills">
-                    <h1 class="fileIcon">&#128462;</h1><p>experiencedSkills.txt</p>
-            </div></label>
-        </div>
-
-    </form>
-    <div class="display">
-        <div id="hiderContent" class="content" style="display:grid">Welcome to my portfolio! Use the file tree on the left to navigate!</div>
-        <div id="introductionContent"class="content">
-            <h1>Mace Thompson</h1>
-            <h3>Invested High School Student | Computer Programmer | JReid InDeed Intern</h3>
+<body id="rainbow" onClick="beginRainbow()">
+     <script src="rainbow.js"></script>
+     <h1>Mace Thompson</h1>
+     <h3>Invested High School Student | Computer Programmer | JReid InDeed Intern</h3>
+    <div class="section">
             <p>My name is Mace Thompson!</p>
             <p>I love learning new things and pride myself on working with many things and picking stuff up easily; matching this, I take many Advanced Placement (AP) courses to sate my goal of knowledge. I disassemble programs and computers to figure out how they work. I'm skilled in web development utilizing HTML, CSS, and JavaScript; JavaScript is one of my strongest suits. I manage Linux-based systems remotely and directly daily, especially as I utilize Linux as my main operating system; due to usage of Linux, I know how to utilize command line and text editors like VIM very well.</p>
             <p>I've taken classes such as AP Computer Science Principles, AP Computer Science A, AP Environmental Science, AP Chemistry, AP Europeon History, AP US History, AP English Language, Dual Credit Pre-Calculus. I'm currently working at an internship at JReid InDeed managing a team to produce a website and video to promote awareness of cardiac arrest and what can be done during it.</p>
             <p>Outside of handling technology, I enjoy biking, taekwondo, weaving, improving my drawing, and playing games. I want to make a change to make the world more inclusive, accessible, and allow personal time.</p>
-        </div>
-        <div id="experienceContent" class="content">
-    <h1>Experience</h1>
-    <h3>Placeholder</h3>
-        </div>    
-        <div id="languagesContent" class="content">
-    <h1>Programming Languages</h1>
+    </div>
+    <h3>Programming Languages</h3>
+    <div class="section">
     <ul>
             <li>HTML</li>
             <li>JavaScript</li>
@@ -54,20 +24,23 @@
             <li>Python</li>
             <li>Bash</li>
     </ul>
-        </div>
-        <div id="skillsContent" class="content">
-    <h1>Skills</h1>
+    </div>
+    <h3>Skills</h3>
+    <div class="section">
     <ul>
         <li>Set up and management of remote systems</li>
         <li>Created websites with user interaction utilizing JavaScript</li>
         <li>Git branching and overall usage</li>
         <li>Linux system management</li>
         <li>Beginner usage of VIM</li>
-        <li>Team coordination</li>
+        <li>Currently creating website for JReid Indeed</li>
+        <li>Team coordination with JReid Indeed</li>
     </ul>
-        </div>
     </div>
-    </div>
-    <script src="display.js"></script>
+    <h3>My works</h3>
+    <div class="section">
+        <h4><a href="https://github.com/unsylph">Github</a></h4>
+        <h4><a href="https://codeberg.org/unsylph">Codeberg</a></h4>
+            </div>
 </body>
 </html>
