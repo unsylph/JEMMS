@@ -48,7 +48,6 @@
     top: 0%;
     left: 0%;
     background-color: #6600b4;
-    align-self: flex-start;
     width: 100%;
     box-shadow: 0 7px 7px rgb(88, 0, 151, 0.7);
 }
@@ -61,7 +60,7 @@
     padding: 3px;
     text-shadow: #640063;
     text-align: center;
-    align-self: center;
+    align-content: center;
 
     
 }
