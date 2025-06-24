@@ -129,10 +129,7 @@ body {
 
 .card:hover {
   transform: translateY(-15px);
-  box-shadow:
-    0 0 30px rgba(255, 0, 0, 0.6),           /* outer red glow */
-    inset 0 0 25px rgba(255, 0, 0, 0.4),     /* inner red glow */
-    0 25px 50px rgba(0, 0, 0, 0.15);         /* original depth shadow */
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
 }
 
 .card-title {
