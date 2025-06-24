@@ -33,10 +33,6 @@ header{
         z-index: 2;
         flex: 0 1 auto;
 }
-img{
-        float: left;
-        margin: 5px;
-}
 div:has(input):not(.folder):not(.body){
         width: 95%;
         text-align: left;
@@ -65,9 +61,17 @@ label{
     margin: 0px;
     padding: 0px;
 }
+.fileIcon{
+        float: left;
+        margin: 5px;
+}
 .folder{
     margin-left: 5%;
-    display:hidden;
+    display:none;
+}
+.content{
+    display:none;
+    padding-right: 3%;
 }
 .navTree{
     padding: 2%;
@@ -94,7 +98,8 @@ label{
 }
 .display{
     background-color: grey;
-    width:100%;
+    width: 96%;
     height: 100%;
     z-index: 0;
-
+    padding-left: 4%;
+}
