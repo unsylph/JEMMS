@@ -5,6 +5,7 @@ body{
     font-family: 'Open Dyslexic';
     color: lightblue;
     overflow-x: hidden;
+    background-image: "./video/background.png";
 }
 .topBar{
     width: 100%;
@@ -59,10 +60,6 @@ body{
     padding-bottom: 20px;
     bottom: 0;
     left: 0;
-}
-
-.video-background{
-  background-image: "video/background.png";
 }
 
 .video{
