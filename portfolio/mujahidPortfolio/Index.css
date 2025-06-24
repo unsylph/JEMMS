@@ -29,6 +29,16 @@
     
 }
 
+.Experience{
+    border-style:dashed;
+    border-radius: 10px;
+    border-width: 3px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: #ffffff30;
+    margin-bottom: 80px;
+}
+
 .ProjSub{
     border-style:dashed;
     border-radius: 10px;
@@ -36,10 +46,6 @@
     margin-left: 80px;
     margin-right: 80px;
     background-color: #ffffff30;
-}
-
-.Projects{
-    margin-bottom: 80px;
 }
 
 .nav-bar{
