@@ -19,7 +19,7 @@ body {
 }
 
 .navbar:hover {
-  background-color: rgba(245, 200, 92, 0.85);
+  background-color: rgba(153, 118, 36, 0.85);
   box-shadow: 0 0 25px 5px rgba(245, 200, 92, 0.9);
 }
 
@@ -35,7 +35,7 @@ body {
 }
 
 .nav-links a {
-  color: #f5c85c; /* warm golden text */
+  color: #ffa600; /* warm golden text */
   text-decoration: none; /* no underline */
   font-weight: bold;
   transition: color 0.3s ease;
@@ -73,7 +73,7 @@ body {
 }
 
 .section-card:hover {
-  background-color: rgba(245, 200, 92, 0.85); /* warm golden transparent */
+  background-color: rgba(255, 179, 0, 0.85); /* warm golden transparent */
   box-shadow: 0 0 25px 5px rgba(245, 200, 92, 0.9);
   color: #1a1a00;
 }
@@ -91,7 +91,7 @@ body {
 }
 
 .middle:hover {
-  background-color: rgba(245, 200, 92, 0.9);
+  background-color: rgba(255, 179, 0, 0.9);
   box-shadow: 0 0 30px 7px rgba(245, 200, 92, 1);
   color: #1a1a00;
 }
