@@ -5,7 +5,8 @@ body{
     font-family: 'Open Dyslexic';
     color: lightblue;
     overflow-x: hidden;
-    background-image: "./video/background.png";
+    background-image: url("video/background.jpg");
+    background-size: cover;
 }
 .topBar{
     width: 100%;
@@ -70,6 +71,10 @@ body{
     width: 80%;
     aspect-ratio: 19/9;
     background-color: black;
+    border-color: rgb(38, 0, 126);
+    border-width: 3px;
+    border-radius: 2px;
+    border-style: solid;
     margin: 50px;
 }
 /*To be used alongside card*/
@@ -150,4 +155,12 @@ body {
   font-size: 16px;
   color: #555;
   line-height: 1.5;
+}
+
+.portrait{
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: 0px 0px;
+  width: 50%;
+  border-radius: 100%;
 }
