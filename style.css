@@ -156,3 +156,11 @@ body {
   color: #555;
   line-height: 1.5;
 }
+
+.portrait{
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: 0px 0px;
+  width: 50%;
+  border-radius: 100%;
+}
