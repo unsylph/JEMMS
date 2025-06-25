@@ -1,82 +1,87 @@
-body{
-    padding: 0px;
-    margin: 0px;
-    width: 100%;
-    font-family: 'Open Dyslexic';
-    color: lightblue;
-    overflow-x: hidden;
-    background-image: url("video/background.png");
-    background-size: cover;
+body {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  font-family: 'Open Dyslexic';
+  color: lightblue;
+  overflow-x: hidden;
+  background-image: url("video/background.jpg");
+  background-size: cover;
 }
-.topBar{
-    width: 100%;
-    margin: 0px;
-    /*position: fixed;*/
-    height: 100px;
-    background-color:red;
-    padding: 0.5%;
-    padding-bottom: 0px;
-    border-style: groove;
-    border-color: red;
-    border-width: 0px;
-    border-bottom-width: 15px;
+
+.topBar {
+  width: 100%;
+  margin: 0px;
+  /*position: fixed;*/
+  height: 100px;
+  background-color: red;
+  padding: 0.5%;
+  padding-bottom: 0px;
+  border-style: groove;
+  border-color: red;
+  border-width: 0px;
+  border-bottom-width: 15px;
 }
-.element{
-    color:white;
-    font-weight: bold;
-    text-align: center;
-    align-content: center;
-    float:left;
-    height: 100%;
-    /*May want to change later*/
-    width: 15%;
-    border-color: indianred;
-    border-style: dashed;
-    border-width: 0px;
-    border-left-width: 3px;
-    /*Shifting color without JS*/
-    background-color:red;
-    transition: background-color 0.5s;
+
+.element {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  align-content: center;
+  float: left;
+  height: 100%;
+  /*May want to change later*/
+  width: 15%;
+  border-color: indianred;
+  border-style: dashed;
+  border-width: 0px;
+  border-left-width: 3px;
+  /*Shifting color without JS*/
+  background-color: red;
+  transition: background-color 0.5s;
 }
-.element:hover{
-    background-color: rgb(200, 0, 0);
+
+.element:hover {
+  background-color: rgb(200, 0, 0);
 }
-.logo{
-    /*Change px to whatever size of topBar is*/
-    height: 100px;
-    width: 100px;
-    float: left;
-    /*May want to change below later if logo is changed*/
+
+.logo {
+  /*Change px to whatever size of topBar is*/
+  height: 100px;
+  width: 100px;
+  float: left;
+  /*May want to change below later if logo is changed*/
 }
 
 /* video-section (affects mostly text) */
-.video-section{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: blue;
-    background-color: rgb(255, 95, 95);
-    border-radius: 5px;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    bottom: 0;
-    left: 0;
+.video-section {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: blue;
+  background-color: rgb(255, 95, 95);
+  border-radius: 5px;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  bottom: 0;
+  left: 0;
 }
 
-.video{
-    /*Placeholder box for video*/
-    display: flex;
-    justify-content: center;
-    /*position: absolute;*/
-    width: 80%;
-    aspect-ratio: 19/9;
-    background-color: black;
-    border-color: rgb(38, 0, 126);
-    border-width: 3px;
-    border-radius: 2px;
-    border-style: solid;
-    margin: 50px;
+.video {
+  /*Placeholder box for video*/
+  display: flex;
+  justify-content: center;
+  /*position: absolute;*/
+  width: 80%;
+  aspect-ratio: 19/9;
+  background-color: black;
+  border-color: rgb(38, 0, 126);
+  border-width: 3px;
+  border-radius: 2px;
+  border-style: solid;
+  margin: 50px;
 }
+
 /*To be used alongside card*/
 .cardContainer{
     height: fit-content;
@@ -86,6 +91,7 @@ body{
   padding-top: 5%;
   flex-wrap: nowrap;
 }
+
 /*To be used on div within cardContainer along with another class or attribute that determines size*/
 .card{
     float:left;
@@ -107,9 +113,12 @@ body{
 .card:hover {
   transform: translateY(-15px);
   box-shadow:
-    0 0 30px rgba(255, 0, 0, 0.6),           /* outer red glow */
-    inset 0 0 25px rgba(255, 0, 0, 0.4),     /* inner red glow */
-    0 25px 50px rgba(0, 0, 0, 0.15);         /* original depth shadow */
+    0 0 30px rgba(255, 0, 0, 0.6),
+    /* outer red glow */
+    inset 0 0 25px rgba(255, 0, 0, 0.4),
+    /* inner red glow */
+    0 25px 50px rgba(0, 0, 0, 0.15);
+  /* original depth shadow */
 }
 /*For home screen card usage*/
 .home{
@@ -138,4 +147,12 @@ h2.card-title {
 .card-description {
   color: #555;
   line-height: 1.5;
+}
+
+.portrait {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: 0px 0px;
+  width: 50%;
+  border-radius: 100%;
 }
