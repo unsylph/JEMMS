@@ -5,6 +5,13 @@
     margin-top: 80px;
 }
 
+.Pfp{
+    border-radius: 100%;
+    aspect-ratio: 1/1;
+    object-position: 0px 0px;
+    object-fit: cover;
+}
+
 .Desc{
 
     border-style:dashed;
@@ -16,6 +23,26 @@
     padding-left: 10px;
     padding-right: 10px;
     
+}
+
+.Desc:hover{
+    size: 110%;
+    background-color: #ffffff60;
+}
+
+.Experience:hover{
+    size: 110%;
+    background-color: #ffffff60;
+}
+
+.ProjSub:hover{
+    size: 110%;
+    background-color: #ffffff60;
+}
+
+.List:hover{
+    size: 110%;
+    background-color: #ffffff60;
 }
 
 .List{
@@ -53,7 +80,7 @@
     position: fixed;
     top: 0%;
     left: 0%;
-    background-color: #6600b4;
+    background-color: #6600b4dc;
     align-self: flex-start;
     width: 100%;
     box-shadow: 0 7px 7px rgb(88, 0, 151, 0.7);
@@ -98,7 +125,7 @@ body{
     align-content: center;
     text-align: center;
     background-size: 400%;
-    background-image: linear-gradient(to right,#6200ac,#8f00ff, #b553ff);
+    background-image: linear-gradient(to right,#8f00ff, #c300ff);
     -webkit-animation: gradientName 10s cubic-bezier(0, 0, 1, 0.99) infinite;
     animation: gradientName 10s cubic-bezier(0, 0, 1, 0.99) infinite;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
