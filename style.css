@@ -1,8 +1,28 @@
+@font-face{
+    font-family: openDyslexic;
+    src: url("openDyslexic2/OpenDyslexic-Regular.otf");
+}
+@font-face{
+    font-family: openDyslexic;
+    src: url("openDyslexic2/OpenDyslexic-Bold.otf");
+    font-weight: bold;
+}
+@font-face{
+    font-family: openDyslexic;
+    src: url("openDyslexic2/OpenDyslexic-Italic.otf");
+    font-style: italic;
+}
+@font-face{
+    font-family: openDyslexic;
+    src: url("openDyslexic2/OpenDyslexic-BoldItalic.otf");
+    font-style: italic;
+    font-weight: bold;
+}
 body {
   padding: 0px;
   margin: 0px;
   width: 100%;
-  font-family: 'Open Dyslexic';
+  font-family: openDyslexic;
   color: lightblue;
   overflow-x: hidden;
   background-image: url("video/background.jpg");
