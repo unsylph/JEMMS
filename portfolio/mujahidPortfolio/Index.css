@@ -5,6 +5,13 @@
     margin-top: 80px;
 }
 
+.Pfp{
+    border-radius: 100%;
+    aspect-ratio: 1/1;
+    object-position: 0px 0px;
+    object-fit: cover;
+}
+
 .Desc{
 
     border-style:dashed;
