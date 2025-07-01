@@ -146,10 +146,11 @@ body {
   grid-template-columns: auto auto;
   gap: 3%;
 }
-.portfolio{
+.portfolio.cardContainer{
     margin-left: 0.25%;
     grid-template-columns: auto auto auto auto auto;
     gap: 3%;
+    padding-top: 0%;
 }
 
 .card-title {
@@ -176,4 +177,16 @@ body {
   object-position: 0px 0px;
   width: 50%;
   border-radius: 100%;
+}
+
+.learn-team {
+text-align: center;
+color: rgb(222, 205, 228);
+background-color: rgb(121, 82, 194, 0.7);
+padding-left: 10px;
+padding-right: 10px;
+margin-right: 420px;
+margin-left: 420px;
+border-style: dotted;
+border-width: 3px;
 }
