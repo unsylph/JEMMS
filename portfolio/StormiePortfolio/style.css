@@ -4,12 +4,25 @@ body{
     background-image: url("./images/star-background.jpg")  
 }
 
+header img{
+height: 150px;
+width: auto;
+display: flex;
+justify-content: center;
+border-color:rgb(23, 0, 59);
+border-width: 5px;
+border-style: solid;
+}
 header{
     background-color: rgb(15, 73, 180);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
     border-radius: 12px;
     color: whitesmoke;
     padding: 10px;
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 .about-me {
@@ -20,8 +33,8 @@ header{
 .projects{
     background-color:rgb(142, 109, 173);
     color: whitesmoke;
-    margin-bottom: 20px;
     border-radius: 12px;
+    margin: 20px;
     padding: 10px;
 }
 
@@ -30,14 +43,20 @@ header{
     color: whitesmoke;
     padding: 20px;
     border-radius: 12px;
-    margin-bottom: 20px;
+    margin: 20px;
+}
+
+.skills ul {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
 }
 
 .contact{
     background-color:rgb(120, 180, 175);
     padding: 10px;
     border-radius: 12px;
-    margin-bottom: 30px;
+    margin: 20px;
     height: 80px;
 }
 
