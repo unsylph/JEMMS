@@ -91,7 +91,7 @@ body {
   align-items: center;
   justify-content: center;
   /*position: absolute;*/
-  width: 90%;
+  width: 100%;
   aspect-ratio: 19/9;
   background-color: black;
   border-color: rgb(38, 0, 126);
