@@ -149,10 +149,10 @@ body {
 .portfolio{
     margin-left: 0.25%;
     grid-template-columns: auto auto auto auto auto;
-    gap: 3%
+    gap: 3%;
 }
 
-h2.card-title {
+.card-title {
   color: #222;
   margin-bottom: 20px;
 }
