@@ -1,0 +1,41 @@
+/* For the game styled stuff*/
+body{
+    height: 600px;
+    width: 800px;
+    overflow: hidden;
+}
+.cprBody{
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: black;
+    height:600px;
+    width: 500px;
+}
+.padArea{
+    background-color: transparent;
+    border-color: red;
+    border-style: dotted;
+    border-radius: 20px;
+    position: absolute;
+    height: 250px;
+    width: 100px;
+}
+#pad1Area{
+        rotate: -152deg;
+        border-color: blue;
+}
+#pad2Area{
+        rotate: 137deg;
+}
+#pad1{rotate: -152deg;background-color:blue;}
+#pad2{rotate: 137deg;}
+.aedPad{
+    position:absolute;
+    top: 50px;
+    left: 100px;
+    background-color: red;
+    border-color: transparent;
+    border-radius: 20px;
+    height: 250px;
+    width: 100px;
+}
