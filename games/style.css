@@ -3,13 +3,26 @@ body{
     height: 600px;
     width: 800px;
     overflow: hidden;
+    background-color: black;
+    margin: 0px;
+}
+div.frame{
+    transition: all 2s;
+    opacity: 0%;
+    display: none;
+    height: 100%;
+    width: 100%;
+}
+div.frame.fade{
+    opacity: 100%;
 }
 .cprBody{
     margin-left: 150px;
     margin-right: 150px;
-    background-color: black;
+    background-color: white;
     height:600px;
     width: 500px;
+    opacity: 100%;
 }
 .padArea{
     background-color: transparent;

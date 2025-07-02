@@ -3,7 +3,7 @@ var jumpPower = 10;
 //Call from prep page html to start game
 function startGame(){
     //Manage all key presses
-    Document.body.onKeyDown = function(e) {
+    document.body.onKeyDown = function(e) {
             if(e.key == " "){
                     jump();
             }
